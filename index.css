@@ -1,0 +1,522 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  
+}
+
+
+.converseimg{
+  background-size:contain !important;
+  background-size:cover !important;
+  
+  width:100%;
+  
+}
+
+@media screen and (min-width:400) {
+  .converseimg{
+    background-size:contain !important;
+   height: 122px !important;
+   width: 2222px !important;
+
+    background-size:cover !important;                    
+  }
+}
+.button{
+  height: 33px !important;
+  width: 129px !important;
+  position: relative;
+  bottom:330px;
+  right:499px;
+  color:rgb(233, 223, 223);
+  background-color:rgb(22, 110, 22);
+  border: none !important;
+  padding:2px;
+  border-radius: 2px;
+  font-weight: 600 !important;
+  font-size:14px;
+  
+}
+/* @media screen  and (max-width: 300px) {
+  
+.button{
+   position: relative;
+  bottom:330px;
+  left:899px !important;
+
+  background: rgb(237, 230, 230);
+} 
+
+}*/
+
+.h1tag h1{
+  position: relative;
+  bottom:355px;
+  left:36px;
+  background:transparent black;
+  font-weight: 800;
+  font-size: 2.4rem;
+  padding:1%px;
+ color:white;
+ max-width:65%
+}
+@media screen  and (max-width:300px){
+  .h1tag h1{
+    font-size: 12px;
+    padding:10%;
+    margin-top:252px;
+   float:left;
+   width: 92%;
+   height: 122px;
+   
+    
+  color: red;
+
+
+  }
+}
+
+
+#forw{
+  position: relative;
+  bottom:5px;
+  font-size: 4rem;
+}
+@media screen and (max-width:300px) {
+  #forw{
+    font-size:15px;
+  }
+}
+.converseimg1{
+  position: relative;
+  bottom:475px;
+  left: 492px;
+  height: 29rem!important;
+  max-width: 30%;
+
+}
+.converseimg2{
+  position: relative;
+  bottom:690px;
+  left: 490px;
+  height: 27rem!important;
+  max-width: 28% !important;
+}
+.converseimg3{
+  position: relative;
+  bottom: 255px;
+  height: 31rem!important;
+  left: 200px;
+  max-height:27rem;
+  }
+  .Abouttext{
+    max-width: 35%;
+    overflow: hidden;
+    margin-left: 60px !important;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 32px !important;
+  }
+  @media screen and (max-width:422px) {
+    .Abouttext{
+      color: rebeccapurple;
+      position: relative;
+      bottom:392px;
+      right:42px;
+     max-width:40%;
+     max-height:109rem;
+    }
+  }
+  .Abouttext h1{
+    margin-bottom:33px;
+  }
+  .Aboutpic{
+    max-width: 15% !important;
+    position: relative;
+    bottom:242px;
+
+    height: 122px;
+  }
+  @media screen and (max-width:300px) {
+    .Aboutpic{
+      height: 12px !important;
+      position:relative;
+      top:2px;
+      right:22px;
+      max-width: 22%;
+    }
+    
+  }
+  @media screen and (max-width:300px){
+.converseimg1{
+  position: relative;
+bottom:137rem;
+max-height: 233px;
+left:150px;
+
+
+}
+  }
+  @media screen and (max-width:300px){
+    .converseimg2{
+      position: relative;
+    max-height: 233px;
+    bottom:121rem;
+    left:72px;
+    
+    }
+      }
+      @media screen and (max-width:300px){
+        .converseimg3{
+          position: relative;
+        bottom:102rem;
+        left:-4px;
+        max-height: 199px;
+        width:74px;
+
+        }
+          }
+  .button1{
+    color:rgb(233, 223, 223);
+  background-color:rgb(22, 110, 22);
+  border: none !important;
+  padding:9px;
+  border-radius: 50px;
+  position: relative;
+  right:63rem;
+  bottom: 14rem;
+  width: 11rem !important;
+ 
+  }
+  .managedservice{
+    margin-bottom:26rem !important;
+  }
+  .managedservice h1{
+    color:rgb(7, 92, 7);
+    
+  }
+  .managedservice h4{
+    margin: 0px 20px !important;
+  }
+ .card{
+    height: 450px 
+    !important;
+    margin-left: 8rem ;
+    width:25% !important;
+    border-radius:22px !important ;
+background-color: rgb(237, 237, 134) !important;
+margin-top:42px;
+margin: 18px !important;
+margin-left:22px;
+  }
+  .card h3{
+    margin: 1px !important;
+    margin-right:52px !important ;
+    
+  }
+  .card-text{
+ 
+    font-size: 16px !important;
+  }
+  .card h1{
+margin-right: 32px !important;
+ }
+  .card-body h6{
+ 
+    
+    margin-bottom: 22px;
+    
+
+  }
+  
+  .card-title{
+    font-size: 27px;
+    font-weight: bolder;
+    float: left !important;
+  }
+  ul li  {
+    list-style: none !important;
+    margin-right: 102px !important;
+    margin:3px;
+    margin-top: 23px;
+    color: green;
+
+  }
+  .container-fluid1{
+    display: flex;
+margin-right:52px;
+position: relative;
+left:122px;
+bottom: 22rem;
+  }
+  .card-view{
+    font-size: 17px;
+    float: right;
+    margin-top: -10px;
+    color: green;
+  }
+   
+.contain2{
+ position: relative;
+ left: 282px;
+  display: flex !important;
+  padding: 2px;
+  bottom: 19rem;
+}
+  .last-background1{
+background-size: cover !important;
+height: 32rem;
+width: 100% !important;
+position: relative;
+bottom:12rem;
+    }
+    
+    .last-background2{
+      height: 63px;
+      border-radius: 50px;
+      width:70px !important;
+      background-size: contain;
+      background-size: cover;
+      overflow: hidden !important;
+
+    }
+    .last-background4{
+      height: 43px !important;
+      border-radius: 80px !important;
+      width:40px !important;
+      background-size: contain;
+      background-size: cover;
+      overflow: hidden !important;
+      background-color: black !important;
+
+    }
+    #last-background4{
+      height: 93px !important;
+      width:45% !important;
+      border-radius: 50px  !important;
+      overflow: hidden !important;
+
+    }
+    #AiOutlineStar{
+      color:rgb(247, 217, 45);
+      font-size: 25px;
+      font-weight: 900;
+      
+      
+    }
+    .last-background21{
+     max-height: 43px !important;
+      border-radius: 50px;
+      width:50px !important;
+      background-size: contain;
+      background-size: cover;
+
+    }
+    
+    .card1{
+      border: solid 2px;
+      border-radius:22px ;
+      background: transparent;
+      width:232px;   
+      height: 243px;
+    box-shadow: 2px 2px 2px ,.0.3; 
+    /* margin: 2px 12rem; */
+    position: relative;
+    left: 178px;
+    background: rgb(225, 222, 210);
+    border: none;
+    background: rgb(142, 144, 145);
+    background: linear-gradient(222deg, rgb(150, 151, 151) 10%, rgba(236,230,224,0.958420868347339) 97%);
+  }
+  .card2{
+    border: solid 2px;
+    border-radius:22px ;
+    background: linear-gradient(135deg, whit 60%, cyan);      box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    background: transparent;
+    width:232px;   
+    height: 243px;
+  box-shadow: 2px 2px 2px ,.0.3; 
+  position: relative;
+  left: 272px;
+  background: rgb(225, 222, 210);
+  border: none;
+  background: rgb(142, 144, 145);
+  background: linear-gradient(222deg, rgb(150, 151, 151) 10%, rgba(236,230,224,0.958420868347339) 97%);
+
+}
+.card3{
+  border: solid 2px;
+  border-radius:22px ;
+background: rgb(110, 112, 112);
+background: rgb(216, 225, 225);
+background: rgb(111,119,122);
+background: linear-gradient(2deg, rgb(198, 204, 206) 60%, rgba(236,230,224,0.958420868347339) 10%);  background: transparent;
+     width:232px;   
+     height: 243px;
+
+position: relative;
+left: 352px;
+border: none;
+background: rgb(142, 144, 145);
+background: linear-gradient(222deg, rgb(150, 151, 151) 10%, rgba(236,230,224,0.958420868347339) 97%);
+}
+    .card-text1{
+      font-size: small;
+      margin:4px 2px;
+      padding: 2px 4px;
+      overflow: hidden !important;
+    }
+    .card-body1{
+      margin:20px 20px !important;
+      color:black;
+      text-shadow: 2px 2px 11px beige,
+                    2px 2px 11px black;
+    }
+    .professionals-page{
+      display: flex !important;
+      
+      position: relative;
+      bottom:602px;
+      left: 72px;
+      
+    }
+      .senchola-text{
+      display:flex;
+      max-width: 222px;
+      flex-direction: column;
+      margin-left: 7rem;
+      display: block;
+      margin-top: 2px;
+    }
+    .senchola-text p
+    {
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      margin-top:22px;
+    }
+     .course{
+      display:flex;
+      flex-direction: column;
+    
+      position: relative;
+      bottom:13rem;
+      right: 12rem;
+    }
+    .course h6{
+      padding:5px;
+      font-size: 11px;
+
+    }
+    .explore{
+      display:flex;
+      flex-direction: column;
+    
+      position: relative;
+      bottom:25rem;
+      right: 1rem;
+    }
+    .explore h6{
+    padding:5px;
+    font-size: 11px;
+
+  }
+  .resourse{
+    display:flex;
+    flex-direction: column;
+  
+    position: relative;
+    bottom:37rem;
+    left: 10rem;
+  }
+  .resourse h6{
+    padding:5px;
+    font-size: 11px;
+
+  }
+  .fotter h1{
+    font-size: 25px;
+  }
+  .connect{
+    position: relative;
+    bottom:50rem;
+    left:28rem;
+  }
+  .icons {
+    
+   
+    background-color: aqua;
+    padding: 2px 22px !important;
+   
+   
+  }
+ .BsLinkedin{
+    
+    
+    width: 16px !important;
+    font-size: 12rem !important;
+    height: 122px !important;
+    margin:10px;
+  }
+  .icons2{
+    margin:10px;
+  }
+  .icons3{
+    margin:10px;
+  }
+  .icons4{
+    margin:10px;
+  }
+  .icons5{
+    margin:10px;
+  }
+  .icons6{
+    margin:10px;
+  }
+  .fotter{
+    background-color: rgb(2, 59, 2);
+    height: 350px;
+    color:rgb(241, 220, 220);
+    text-shadow: 2px 2px 2px black;
+    position: relative;
+    bottom: 400px;
+   padding:22px;
+    width: 100%;
+  }
+  .connect p{
+    font-size: 22px;
+    box-shadow: 2px  0px black;
+    margin-top: 32px;
+  }
+
+    
+    /* .last-background{
+      margin:12px 42px;
+    } */
+    .copy{
+      border-bottom: solid 1px white;
+      margin-left:-392px !important;
+max-width: 89%;
+padding:12px;
+margin-top:3.5rem;
+    }
+    .copy h6{
+      margin-left:-80px !important;
+    }
+    #LuCheckCheck{
+    color:black!important;
+    margin-right:9px !important;
+    font-size: 22px;
+    }
+    #AiOutlineArrowRight{
+      font-size: 22px !important;
+      margin:2px !important;
+
+    }
+    #BsLinkedin{
+      font-size: 35px !important;
+      margin:9px;
+      margin-top:4rem;
+    }
