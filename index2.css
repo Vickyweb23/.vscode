@@ -6,22 +6,30 @@
 }
 
 .form-control{
+    border: none !important;
+
     display: flex;
     flex-direction: column;
-    margin:1px;
-    margin-right: 17rem !important;
-   
+    margin-top:25px !important;
+    margin-right:122px !important ;
+    /* margin-left: 27rem !important; */
     border: white;
     box-shadow: 2px 2px 12px white ,
                   3px 3px 17px white!important;
 
 }
+.form-control h1{
+    margin-top: 3%;
+}
 .form-control input{
-width: 11rem;
+width: 19rem;
 border-radius:1px ;
-font-size: 6px;
-height: 1.1rem;
-color: white;
+font-size: 14px;
+height: 1.5rem;
+color:black;
+margin-bottom: 19px !important;
+border-color: white;
+border: solid 2px rgb(219, 207, 207);
 
 
 }
@@ -30,22 +38,22 @@ color: white;
     3px 3px 17px green!important;}
 .form-control label {
 
-margin-left: 12px;
+margin-left: 22px;
+position: relative;
+top:12px;
 }
 #position{
     margin-right:6rem !important;
-    font-size: 12px;
+    font-size: 21px !important;
     position: relative;
-    top:12px;
-    border: solid 2px white !important;
+    top: 2px;
 
 }
 #position1{
     margin-right:3rem !important;
-    font-size: 12px;
+    font-size: 18px;
     position: relative;
-    top:12px;
-    border: solid 2px white !important;
+    top:4px;
 }
 span{
     color: red;
@@ -54,7 +62,7 @@ span{
     border:solid 1px green !
     important;
     max-height: 1.5rem !important;
-    width: 10rem !important;
+    width: 18rem !important;
 justify-content: center;
 align-items: center;
     margin-top: 1rem;
@@ -77,4 +85,57 @@ align-items: center;
 #span1{
     color:rgb(103, 216, 103);
     font-size: small !important;
+}
+.map{
+    background: url(images/pic17.webp );
+    height:38rem;
+    width: 27rem ;
+    position: relative;
+    left: 57rem;
+    bottom:39.5rem;
+    font-size: medium;
+    border-right:solid 55px green;
+    border-top:solid 95px green;
+    border-bottom:solid 75px green;
+    border-top-width: 15%  !important;
+    border-bottom-width: 14%;
+
+}
+.form{
+    position: relative;
+    right:133px !important;  
+    bottom:43px;
+    height: 62rem !important; 
+    background-color: green;
+    float:left !important;
+    
+}
+.phone{
+    position: relative;
+    top:12px;
+    right:93px;
+}
+.email {
+    position: relative;
+    bottom:43px;
+    left:63px;
+}
+.address{
+
+    position: relative;
+    bottom:40px;
+    right:93px; 
+}
+.form-control{
+    
+    position: relative;
+    bottom:40px !important;
+    right:193px !important; 
+    margin-top: 7rem !important;
+    
+
+}
+.fotter{
+    position: relative;
+    bottom:42rem;
 }
