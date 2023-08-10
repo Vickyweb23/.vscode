@@ -124,4 +124,4 @@ const cantact = () => {
   )
 }
 
-export default Cantact
+export default cantact
